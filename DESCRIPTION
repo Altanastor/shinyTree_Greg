@@ -1,0 +1,45 @@
+Package: shinyTree
+Type: Package
+Title: jsTree Bindings for Shiny
+Version: 0.2.4
+Date: 2017-02-14
+Authors@R: c(
+  person(family="Trestle Technology, LLC", role="aut", email="cran@trestletechnology.net"),
+  person("Jeff", "Allen", role="cre", email="cran@trestletechnology.net"),
+  person(family="Institut de Radioprotection et de Sûreté Nucléaire", role=c("cph"), email = "yann.richet@irsn.fr"),
+  person("Ivan", "Bozhanov", role=c("ctb", "cph"), comment = "jsTree"),
+  person(family="The Dojo Foundation", role=c("ctb", "cph"), comment="require.js"),
+  person(family="jQuery Foundation, Inc.", role=c("ctb", "cph")),
+  person("Mike", "Schaffer", role=c("ctb"), email="mschaff@gmail.com"),
+  person("Timm", "Danker", role=c("ctb"), email="tidafr@carina.uberspace.de"))
+Description: Exposes bindings to jsTree -- a JavaScript library
+    that supports interactive trees -- to enable a rich, editable trees in
+    Shiny.
+License: MIT + file LICENSE
+Depends: R (>= 2.15.1), methods
+Imports: shiny (>= 0.9.0)
+Suggests: testthat
+BugReports: https://github.com/trestletech/shinyTree/issues
+Roxygen: list(wrap = TRUE)
+RoxygenNote: 6.0.1
+Encoding: UTF-8
+Author: Trestle Technology, LLC [aut],
+  Jeff Allen [cre],
+  Institut de Radioprotection et de Sûreté Nucléaire [cph],
+  Ivan Bozhanov [ctb, cph] (jsTree),
+  The Dojo Foundation [ctb, cph] (require.js),
+  jQuery Foundation, Inc. [ctb, cph],
+  Mike Schaffer [ctb],
+  Timm Danker [ctb]
+Maintainer: Jeff Allen <cran@trestletechnology.net>
+Built: R 3.2.3; ; 2017-08-06 17:13:38 UTC; unix
+RemoteType: github
+RemoteHost: https://api.github.com
+RemoteRepo: shinyTree
+RemoteUsername: schaffman5
+RemoteRef: master
+RemoteSha: 45021be1573c938d690ea9fa5c5afabc7625d68b
+GithubRepo: shinyTree
+GithubUsername: schaffman5
+GithubRef: master
+GithubSHA1: 45021be1573c938d690ea9fa5c5afabc7625d68b
